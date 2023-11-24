@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Vintage Quest</title>
+   {%load static%}
+        <link rel="stylesheet" href="{%static 'style.css'%}" />
+    <link rel="icon" href="{%static '/Images/old is gold-logos.jpeg'%}" />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <section id="header">
+   <a href="{% url 'index' %}">
+      <img src="{% static 'Images/old is gold-logos.jpeg' %}" class="logo" width="100px" height="50px" />
+   </a>
+   <div>
+      <ul id="navbar">
+         <li><a class="active" href="{% url 'index' %}" style="font-family: Times New Roman;">Home</a></li>
+         <li><a href="{% url 'shop' %}" style="font-family: Times New Roman;">Shop</a></li>
+         <li><a href="{% url 'blog' %}" style="font-family: Times New Roman;">Blog</a></li>
+         <li><a href="{% url 'about' %}" style="font-family: Times New Roman;">About</a></li>
+         <li><a href="{% url 'contact' %}" style="font-family: Times New Roman;">Contact</a></li>
+         <li><a href="{% url 'cart' %}"><i class="fa fa-shopping-cart"></i></a></li>
+      </ul>
+   </div>
+   <div id="mobile">
+      <a href="{% url 'cart' %}"><i class="fa fa-shopping-cart"></i></a>
+      <i id="bar" class="fa fa-outdent" aria-hidden="true"></i>
+   </div>
+</section>
+    <section id="page-header">
+        <h2>#stayhome</h2>
+          <p>Save More With Coupons & up to 70% off!</p>
+          
+    </section>
+    <section id="product1" class="section-p1">
+      
+      </p>
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href='{%url 'cart'%}';">
+          <img src="{%static 'Images/camera2.jpeg'%}">
+          <div class="des">
+            <span>Korona IIB</span>
+            <h5>Vintage Camera Espanol</h5>
+            <div class="star">
+              <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    
+            <h4>$33.56</h4>
+          </div>
+      </div> 
+      <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+      </div>
+      <div class="pro">
+        <img src="{%static 'Images/coin1.jpg'%}">
+        <div class="des">
+          <span>Liberty 1794</span>
+          <h5>Vintage Coin</h5>
+          <div class="star">
+            <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o" ></i>
+                  <i class="fa fa-star-o"></i>
+          <h4>₹2999</h4>
+        </div>
+    </div> 
+    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+    </div>
+    <div class="pro">
+      <img src="{%static 'Images/camera3.jpeg'%}">
+      <div class="des">
+        <span>Leiss-ikon</span>
+        <h5>cam espanol</h5>
+        <div class="star">
+          <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+        <h4>₹4555</h4>
+      </div>
+  </div> 
+  <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+  </div>
+  <div class="pro">
+    <img src="{%static 'Images/teapai.jpg'%}">
+    <div class="des">
+      <span>RolliFlexo Table</span>
+      <h5>Wisdom Chair </h5>
+      <div class="star">
+        <i class="fa fa-star checked"></i>
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+      <h4>5556</h4>
+    </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro" onclick="window.location.href='{%url 'cart'%}';">
+  <img src="{%static 'Images/telephone3.jpg'%}">
+  <div class="des">
+    <span>Gpo RetroCarrington</span>
+    <h5>Telephone</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$75.56</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+  <img src="{%static 'Images/table1.jpg'%}">
+  <div class="des">
+    <span>Synchro-compur Table</span>
+    <h5>Table 2.13 EX</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$39.99</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+  <img src="{%static 'Images/ring.jpg'%}">
+  <div class="des">
+    <span>Rollri Ring</span>
+    <h5>Royal espanol Ring</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$100</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+  <img src="{%static 'Images/wea.jpg'%}">
+  <div class="des">
+    <span>KORON Weapon</span>
+    <h5>Kingo espanol knife</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$65.99</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+
+        <div class="pro" onclick="window.location.href='{%url 'cart'%}';">
+          <img src="{%static 'Images/typ.jpg'%}">
+          <div class="des">
+            <span>Imperial Typewriter </span>
+            <h5>Vintage Typewriter Espanol</h5>
+            <div class="star">
+              <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    
+            <h4>$33.56</h4>
+          </div>
+      </div> 
+      <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+      </div>
+      <div class="pro">
+        <img src="{%static 'Images/wase.jpg'%}">
+        <div class="des">
+          <span>Johnson's Cluster</span>
+          <h5>Royal Flowerwase</h5>
+          <div class="star">
+            <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o" ></i>
+                  <i class="fa fa-star-o"></i>
+          <h4>$29.99</h4>
+        </div>
+    </div> 
+    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+    </div>
+    <div class="pro">
+      <img src="{%static 'Images/tramp.png'%}">
+      <div class="des">
+        <span>Tranphone</span>
+        <h5>Gramograph</h5>
+        <div class="star">
+          <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+        <h4>$45.55</h4>
+      </div>
+  </div> 
+  <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+  </div>
+  <div class="pro">
+    <img src="{%static 'Images/hand.webp'%}">
+    <div class="des">
+      <span>Mani Overseas</span>
+      <h5>Hand Statue</h5>
+      <div class="star">
+        <i class="fa fa-star checked"></i>
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star checked"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+      <h4>$55.56</h4>
+    </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+  <img src="{%static 'Images/cow.jpeg'%}">
+  <div class="des">
+    <span>Vintage metelio</span>
+    <h5>Gomatha</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$75.56</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+  <img src="{%static 'Images/gramophone.jpg'%}">
+  <div class="des">
+    <span>Thor Instruments</span>
+    <h5>A phonograph</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$39.99</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+  <img src="{%static 'Images/telephone4.jpg'%}">
+  <div class="des">
+    <span>Motorola </span>
+    <h5>Motorola Dynatac 8000X</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$100</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+  <img src="{%static 'Images/radios.jpg'%}">
+  <div class="des">
+    <span>Honeytone</span>
+    <h5>Hornyfon</h5>
+    <div class="star">
+      <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    <h4>$65.99</h4>
+  </div>
+</div> 
+<a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+</div>
+    </section>
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      </section>
+     <section id="newletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up  For Newletters</h4>
+        <p>Get E-mail Updates About Our New Arrivals <span> Special Offer!!</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal button-radius">Sign Up</button>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+       <a href="{%url 'index'%}"
+        ><img
+          src="{%static 'Images/old is gold-logos.jpeg'%}"
+          class="logo"
+          width="100px"
+          height="50px"
+      /></a>
+       <h4>Contact</h4>
+        <p><strong>Address: </strong> Khanapur , 504-203 , Vidhyanagar , Telangana.
+        </p>
+        <p><strong>Phone: </strong> (+91)9010102210/(+91)9989569687</p>
+        <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="iconi">
+            <a href="https://www.facebook.com/manojkumar.sanda/" target="_blank"><i  href="FB Link"class="fa fa-facebook" aria-hidden="true" ></i></a>
+            <a href="https://www.instagram.com/thisismanojkumar_45/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/MANOJKU17837063"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/SandaManojkumar"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCp5W1BopGpgW1fwmFaDHGFw"target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://in.pinterest.com/manojkumarsanda/"target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+       <div class="col">
+        <h4>About</h4>
+        <a href="{%url 'about'%}">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="{%url 'terms'%}">Terms & Conditions</a>
+        <a href="{%url 'contact'%}">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="{%url 'Login'%}">Sign In</a>
+        <a href="{%url 'cart'%}">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="{%static 'Images/app.jpg'%}"></a>
+        <a href="https://play.google.com/store/games?hl=en&gl=US" target="_blank"><img src="{%static 'Images/play.jpg'%}"></a>
+      </div>
+      <p>Secured Payment Gateways</p>
+         <a href="{%static 'Images/payment.png'%}"><img src="{%static 'Images/pay.png'%}" ></a>
+        </div>
+     <div class="copyright">
+        <p>© 2023, ManojSanda co. - VintageQuest Inc. All rights reserved</p>
+      </div>
+   </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Vintage Quest</title>
+    {%load static%}
+        <link rel="stylesheet" href="{%static 'style.css'%}" />
+    <link rel="icon" href="{%static '/Images/old is gold-logos.jpeg'%}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+  </head>
+  <body>
+    <section id="header">
+       <a href="{%url 'index'%}"
+        ><img
+          src="{%static 'Images/old is gold-logos.jpeg'%}"
+          class="logo"
+          width="100px"
+          height="50px"
+      /></a>
+      <div>
+         <ul id="navbar">
+          <li><a class="active" href="{%url 'index'%}"style="font-family:Times New Roman;">Home</a></li>
+          <li><a href="{%url 'shop'%}"style="font-family:Times New Roman;">Shop</a></li>
+          <li><a href="{%url 'blog'%}"style="font-family:Times New Roman;">Blog</a></li>
+          <li><a href="{%url 'about'%}"style="font-family:Times New Roman;">About</a></li>
+          <li><a href="{%url 'contact'%}"style="font-family:Times New Roman;">Contact</a></li>
+          <li>
+            <a href="{%url 'cart'%}"><i class="fa fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+        <i id="bar" class="fa fa-outdent" aria-hidden="true"></i>
+      </div>
+    </section>
+    <section id="page-header" class="blog-header">
+      <h2>#stayhome</h2>
+      <p>Unlocking the Secrets of Successful eCommerce</p>
+    </section>
+    <section id="blog">
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="{%static 'Images/blog_vases.jpeg'%}" alt="" />
+        </div>
+        <div class="blog-details">
+          <h4>Art and Decorator</h4>
+          <p class="col5">
+            Antique vases are valuable and collectible decorative items. They
+            come in various styles, including Chinese porcelain, Greek amphorae,
+            Art Nouveau, and Art Deco. Their value depends on rarity, age, and
+            condition. Ensure authenticity when buying, and handle them
+            carefully. Antique vases offer historical and artistic insights and
+            can be used for decoration or investment.
+          </p>
+          <a href="">CONTINUE READING</a>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="{%static 'Images/blog_b5.webp'%}" alt="" />
+        </div>
+        <div class="blog-details">
+          <h4>Tools and Technology</h4>
+          <p class="col5">
+            Antique tools and technology are old instruments and devices
+            collected for their historical, technological, or nostalgic value.
+            They encompass hand tools and vintage gadgets like cameras and
+            typewriters. Collectors value them for rarity, craftsmanship, and
+            historical significance. Authentication may be needed, and proper
+            preservation is crucial. These items offer insights into history and
+            can evoke nostalgia, with enthusiasts forming communities around
+            them.
+          </p>
+          <a href="#">CONTINUE READING</a>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="{%static 'Images/blog_b2.jpg'%}" alt="" />
+        </div>
+        <div class="blog-details">
+          <h4>Furniture</h4>
+          <p class="col5">
+            Antique furniture refers to old, valuable, and often historical
+            pieces that are at least 100 years old. It comes in various styles,
+            materials, and periods, with value determined by age, rarity,
+            condition, and craftsmanship. Authentication is crucial, and proper
+            care and maintenance are essential. Antique furniture is used for
+            decoration, collecting, and potentially as an investment, offering
+            insights into history and design.
+          </p>
+          <a href="#">CONTINUE READING</a>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="{%static 'Images/blog_b3.webp'%}" alt="" />
+        </div>
+        <div class="blog-details">
+          <h4>Collectibles</h4>
+          <p class="col5">
+            Antique collectibles are old and valuable items like coins, stamps,
+            toys, and art. They hold historical and artistic significance, and
+            their rarity and condition affect their value. Authentication is
+            essential. Collecting can be a hobby and even an investment, with a
+            strong community of enthusiasts. These items often have sentimental
+            value and provide insights into history and culture.
+          </p>
+          <a href="#">CONTINUE READING</a>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="{%static 'Images/blog_b4.webp'%}" alt="" />
+        </div>
+        <div class="blog-details">
+          <h4>Jewelry and Accessories</h4>
+          <p class="col5">
+            Antique jewelry and accessories are old and valuable adornments,
+            including rings, necklaces, and vintage accessories like handbags
+            and hats. They come in various styles and periods, with factors like
+            age, rarity, and craftsmanship influencing their value.
+            Authentication is important. These items hold sentimental and
+            artistic value, and some view them as potential investments. Proper
+            preservation is crucial, and they offer insights into fashion and
+            history. Enthusiasts often form communities around antique jewelry
+            and accessories.
+          </p>
+          <a href="#">CONTINUE READING</a>
+        </div>
+      </div>
+    </section>
+    <section id="pagination" class="section-p1">
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+    </section>
+        <section id="newletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up  For Newletters</h4>
+        <p>Get E-mail Updates About Our New Arrivals <span> Special Offer!!</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal button-radius">Sign Up</button>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+         <a href="{%url 'index'%}"
+        ><img
+          src="{%static 'Images/old is gold-logos.jpeg'%}"
+          class="logo"
+          width="100px"
+          height="50px"
+      /></a>
+       <h4>Contact</h4>
+        <p><strong>Address: </strong> Khanapur , 504-203 , Vidhyanagar , Telangana.
+        </p>
+        <p><strong>Phone: </strong> (+91)9010102210/(+91)9989569687</p>
+        <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="iconi">
+            <a href="https://www.facebook.com/manojkumar.sanda/" target="_blank"><i  href="FB Link"class="fa fa-facebook" aria-hidden="true" ></i></a>
+            <a href="https://www.instagram.com/thisismanojkumar_45/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/MANOJKU17837063"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/SandaManojkumar"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCp5W1BopGpgW1fwmFaDHGFw"target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://in.pinterest.com/manojkumarsanda/"target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+        <div class="col">
+        <h4>About</h4>
+        <a href="{%url 'about'%}">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="{%url 'terms'%}">Terms & Conditions</a>
+        <a href="{%url 'contact'%}">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="{%url 'Login'%}">Sign In</a>
+        <a href="{%url 'cart'%}">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="{%static 'Images/app.jpg'%}"></a>
+        <a href="https://play.google.com/store/games?hl=en&gl=US" target="_blank"><img src="{%static 'Images/play.jpg'%}"></a>
+      </div>
+      <p>Secured Payment Gateways</p>
+        <a href="{%static 'Images/payment.png'%}"><img src="{%static 'Images/pay.png'%}" ></a>
+        </div>
+     <div class="copyright">
+        <p>© 2023, ManojSanda co. - VintageQuest Inc. All rights reserved</p>
+      </div>
+   </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
